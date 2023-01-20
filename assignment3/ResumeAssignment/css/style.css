@@ -1,0 +1,79 @@
+ /* 
+ https://coolors.co/011627-fdfffc-2ec4b6-e71d36-ff9f1c 
+ Rich Black: #011627
+ Light Grey: #7F8B92
+ Baby Powder: #FDFFFC
+ Tiffany Blue: #2EC4B6
+ Rose Madder: #E71D36
+ Orange Peel: #FF9F1C
+ Cinnabar: #FDFFFC
+  */
+
+  /* Global Styles */
+
+body{
+    color: #011627;
+  }
+img{
+    width: 300px;
+}
+a{
+    color: #ED3E30;
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+
+
+ /* Portfolio */
+header {
+     background-color: #011627;
+     color: #FDFFFC;
+}
+
+
+/* Projects */
+.projects{
+    background-color: #F77D3B;
+}
+
+.projects a{
+    color: #FDFFFC;
+    text-decoration: none;
+}
+.projects .btn{
+    color: #FDFFFC;
+    background: #011627;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+.projects .btn:hover{
+    background: rgba(1,22,39,80%);
+}
+
+
+
+
+
+/* Work Experience */
+.work-experience{
+    background-color: #E71D36;
+}
+
+
+
+
+ /* Education*/
+
+
+
+
+
+ /* Contact Info */
+ footer {
+    background-color: #011627;
+    color: #FDFFFC;
+}
