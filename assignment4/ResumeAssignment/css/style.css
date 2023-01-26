@@ -1,0 +1,125 @@
+ /* 
+ https://coolors.co/011627-fdfffc-2ec4b6-e71d36-ff9f1c 
+ Rich Black: #011627
+ Light Grey: #7F8B92
+ Baby Powder: #FDFFFC
+ Tiffany Blue: #2EC4B6
+ Rose Madder: #E71D36
+ Orange Peel: #FF9F1C
+ Cinnabar: #FDFFFC
+  */
+
+  /* Global Styles */
+html{   
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    color: #011627;
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+img{
+    width: 300px;
+}
+a{
+    color: #ED3E30;
+}
+a:hover{
+    text-decoration: none;
+}
+h1{
+    font-size: 5.5rem;
+    line-height: 2.5rem;
+    margin-top: 40px;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0;
+}
+h1, h2{
+    font-family: 'Contrail One', cursive;
+    
+    
+}
+.content-wrap{
+    width: 850px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+
+
+ /* Portfolio */
+header {
+     background-color: #011627;
+     color: #FDFFFC;
+}
+  .threeD {
+    text-shadow: -0.06em 0 red, 0.06em 0 cyan;
+  }
+
+/* Projects */
+.projects{
+    background-color: #F77D3B;
+}
+
+.projects a{
+    color: #FDFFFC;
+    text-decoration: none;
+}
+.projects .btn{
+    color: #FDFFFC;
+    background: #011627;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.projects .btn:hover{
+    background: rgba(1,22,39,80%);
+}
+.project-item {
+    overflow:hidden;
+    border-bottom: 1px dashed #FDFFFC;
+    padding: 25px 0;
+ }
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3{
+  margin-top: 0;
+  font-size: 1.35rem;  
+}
+
+
+
+
+
+/* Work Experience */
+.work-experience{
+    background-color: #E71D36;
+}
+
+
+
+
+ /* Education*/
+
+
+
+
+
+ /* Contact Info */
+ footer {
+    background-color: #011627;
+    color: #FDFFFC;
+}
