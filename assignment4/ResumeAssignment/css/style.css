@@ -63,7 +63,7 @@ header {
      color: #FDFFFC;
 }
   .threeD {
-    text-shadow: -0.06em 0 red, 0.06em 0 cyan;
+    text-shadow: -0.06em 0 #E71D36, 0.06em 0 #2EC4B6;
   }
 
 /* Projects */
