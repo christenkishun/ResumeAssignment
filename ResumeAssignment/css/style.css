@@ -1,0 +1,210 @@
+ /* 
+ https://coolors.co/011627-fdfffc-2ec4b6-e71d36-ff9f1c 
+ Rich Black: #011627
+ Light Grey: #7F8B92
+ Baby Powder: #FDFFFC
+ Tiffany Blue: #2EC4B6
+ Rose Madder: #E71D36
+ Orange Peel: #FF9F1C
+ Cinnabar: #E34234
+  */
+
+  /* Global Styles */
+html{   
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    color: #011627;
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+img{
+    width: 300px;
+}
+a{
+    color: #c21d31;
+}
+a:hover{
+    text-decoration: none;
+}
+h1{
+    font-size: 5.5rem;
+    line-height: 2.5rem;
+    margin-top: 40px;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0;
+}
+h1, h2{
+    font-family: 'Contrail One', cursive;
+    
+    
+}
+.content-wrap{
+    width: 850px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+@media only screen and (max-width: 851px) {
+    .content-wrap{
+        width: 550px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 10px;
+        padding: 40px 0;
+        align-items: center;
+    }
+    .content-wrap p{
+        overflow: hidden;
+    }
+    h1{
+        font-size: 4.5rem;
+  }
+}
+
+/* Navigation */
+.navigation-styles{
+    margin: 0;
+    padding: 0;
+    background: #c21d31;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+nav ul {
+    margin: 0;
+    text-align: left;
+    list-style: none;
+    color: #FDFFFC;                 
+}
+nav ul li {
+    display: inline-block;
+    position: relative;
+    padding: 15px 20px;
+    background: #c21d31;
+    color: #FDFFFC;
+}
+nav ul li a {
+    color: #FDFFFC;
+    padding: 0 2px;
+    text-decoration: none;
+}
+nav ul li ul {
+    padding: 0;
+    position: absolute;
+    top: 54px;
+    left: -10000px;                 /*Sets submenu way offscreen on the left side so it's hidden from view*/
+    width: 175px;
+}
+nav ul li ul li {
+    background: #c21d31;
+    display: block;
+    color:#FDFFFC;
+}
+nav ul li:hover ul {                 
+    display: block;
+    left :0px;                        
+}
+
+ /* Portfolio */
+.headerarea {
+     background-color: #011627;
+     color: #FDFFFC;
+}
+  .threeD {
+    text-shadow: -0.06em 0 #c21d31, 0.06em 0 #2EC4B6;
+  }
+
+/* Projects */
+.projects{
+    background-color: #F77D3B;
+}
+
+.projects a{
+    color: #FDFFFC;
+    text-decoration: none;
+}
+.projects .btn{
+    color: #FDFFFC;
+    background: #011627;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.projects .btn:hover{
+    background: rgba(1,22,39,80%);
+}
+.project-item {
+    overflow:hidden;
+    border-bottom: 1px dashed #FDFFFC;
+    padding: 25px 0;
+ }
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3{
+  margin-top: 0;
+  font-size: 1.35rem;  
+}
+
+
+
+
+
+/* Work Experience */
+.work-experience{
+    background-color: #991121;
+    color: #FDFFFC;
+}
+.work-experience p{
+    font-weight: 400;
+    font-size: 1rem;
+}
+.job-title {
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+.job-date {
+    font-style: italic;}
+
+
+
+
+ /* Education*/
+
+
+
+
+
+ /* Contact Info */
+footer {
+    background-color: #011627;
+    color: #FDFFFC;
+    text-decoration: none;
+}
+footer ul {
+    margin: 0;
+    text-align: left;
+    list-style: none;
+    color: #FDFFFC;                 
+}
+footer ul li {
+    display: inline-block;
+    position: relative;
+    padding: 40px 20px 0 20px;
+}
+footer ul li:hover {
+    background: #011627;
+    color: #FDFFFC;
+}
